@@ -1,0 +1,31 @@
+footer{
+    background-image: url(./assets/fondo.png);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    text-align: center;
+    color: whitesmoke;
+    height: 18em;
+}
+footer h2::before{
+    content: "";
+    display: block;
+    margin: 2em auto;
+    height: 0.1em;
+    width: 7em;
+    background-color: white;
+}
+footer h2{
+    padding-top: 0.7em;
+    margin-block-start: 0px;
+}
+i{
+    font-size: 1.6em;
+}
+footer a{
+    margin: 0 0.3em 0 0.3em;
+    color: white;
+}
+footer a:hover{
+    color: #df7366;
+}

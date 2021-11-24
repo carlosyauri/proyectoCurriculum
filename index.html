@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./assets/iconTab.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/6bf04c5b33.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <h1>dev Carlos Yauri  <br> Portfolio</h1>
+        <h2>Full Stack developer.</h2>
+        <a href="#proyectos"><div class="start">Proyectos</div></a>
+    </header>
+    <main>
+        <section class="descripcion" data-aos="fade-up" data-aos-duration="1000">
+            <h2>¿Quien soy?</h2>
+            <p>Web developer.  Actualmente desarrollando trabajos como freelancer.</p>
+            <p>Constantemente aprendiendo y buscando nuevos retos</p>
+            <p>Mi objetivo es que mi trabajo me ayude a crecer y que mis conocimientos <br> sean utiles para generar contenido nuevo y/o mejorarlo</p>
+            <h2 style="margin-top: 1.5em;">Conocimientos</h2>
+            <div id="Conocimiento" class="tabcontent">
+                <div class="skill-wrapper text-center">
+                    <div class="skill grayfilter">
+                        <img src="./assets/icons/react.svg" alt="ReactJS">
+                        <h4>ReactJS</h4>
+                    </div>
+                    <div class="skill grayfilter">
+                        <img src="./assets/icons/node.svg" alt="NodeJS">
+                        <h4>NodeJS</h4>
+                    </div>
+                    <div class="skill grayfilter">
+                        <img src="./assets/icons/mysql.svg" alt="mysql"  style="min-height: 65px;max-width: 100px;">
+                        <h4>MySQL</h4>
+                    </div>
+
+                    <div class="skill grayfilter">
+                        <img src="./assets/icons/git.svg" alt="GIT Version Control">
+                        <h4>GitHub</h4>
+                    </div>
+                    <div class="skill grayfilter">
+                        <img src="./assets/icons/html.svg" alt="HTML5">
+                        <h4>HTML 5</h4>
+                    </div>
+                    <div class="skill grayfilter">
+                        <img src="./assets/icons/css.svg" alt="CSS 3">
+                        <h4>CSS 3</h4>
+                    </div>
+                    <div class="skill grayfilter">
+                        <img src="./assets/icons/js.svg" alt="JavaScript ES6">
+                        <h4>JavaScript</h4>
+                    </div>
+                    <div class="skill grayfilter">
+                        <img src="./assets/icons/sass.svg" alt="Sass - SCSS">
+                        <h4>Sass - SCSS</h4>
+                    </div>
+                    <div class="skill grayfilter">
+                        <img src="./assets/icons/ingles.svg" alt="Inglés Bilingüe">
+                        <h4>Inglés A1-A2</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-project" id="proyectos" >
+            <h2 class="tittle-carrusel">Proyectos</h2>
+            <div class="proyecto-container">
+                <article class="proyecto" data-aos="fade-up" data-aos-delay="600"
+                data-aos-duration="500">
+                    <img src="./assets/dinamicPage.jpeg" alt="" class="inicio" id="imagen-landing">
+                    <img src="./assets/responsive.png" alt="" class="middle">
+                    <img src="./assets/responsive2.png" alt="" class="fin">
+                    <h2>LANDING PAGE</h2>
+                    <p>Maquetacion de pagina estatica responsive Html, CSS3 , SASS.</p>
+                    <a href="https://carlosyauri.github.io/proyecto-1-acamica/" target="_blank"><button>Ver Proyecto</button></a>
+                </article>
+                <article class="proyecto" data-aos="fade-up" data-aos-delay="400"
+                data-aos-duration="500">
+                    <img src="./assets/gifos1.jpeg" class="inicio" alt="" id="imagen-gifs">
+                    <img src="./assets/gifos2.png" class="middle" alt="">
+                    <img src="./assets/gifos3.png" class="fin" alt="">
+                    <h2>PROYECTO GIFOS</h2>
+                    <p>Pagina responsive con peticiones a API y grabacion de video.</p>
+                    <a href="https://carlosyauri.github.io/acamica-proyecto-2/" target="_blank"><button>Ver Proyecto</button></a>
+                </article>
+                <article class="proyecto" id="expand" data-aos="fade-up" data-aos-delay="200"
+                data-aos-duration="500">
+                    <img src="./assets/delilah.png" alt="">
+                    <h2>REST API</h2>
+                    <p id="text">API dirigida a un restaurante de comidas<span id="leerMas" class="leerMas">  Leer mas...</span> <span id="endText" hidden>desarrollado en NodeJs. , acceso con token , CRUD de productos, pedidos y personas. Base de datos MySQL, usando como ORM: Sequelize</span>  <span id="cerrar" hidden class="leerMas">...Cerrar</span></p>
+                    <a href="https://github.com/carlosyauri/proyecto-3-acamica" target="_blank"><button>Ver Proyecto</button></a>
+                </article>
+                <article class="proyecto" id="expandDos" data-aos="fade-up" data-aos-delay="100"
+                data-aos-duration="500">
+                    <img src="./assets/dwfsi.png" alt="">
+                    <h2>DATA WAREHOUSE</h2>
+                    <p id="textDos">Pagina web para compañía de Marketing.<br/><span id="leerMasDos" class="leerMas">  Leer mas...</span> <span id="endTextDos" hidden>Administra contactos de sus clientes para sus campañas. Desarrollado Frontend y Backend</span>  <span id="cerrarDos" hidden class="leerMas">...Cerrar</span></p>
+                    <a href="https://github.com/carlosyauri/Data-werehouse" target="_blank"><button>Ver Proyecto</button></a>
+                </article>
+                <article class="proyecto" data-aos="fade-up" data-aos-delay="300"
+                data-aos-duration="500">
+                    <img src="./assets/pokeapi.png" alt="">
+                    <h2>&#10026 POKEAPI </h2>
+                    <p>Pagina realizada con ReactJS. Con peticion a PokeAPI</p>
+                    <a href="https://github.com/carlosyauri/pokemons-react" target="_blank"><button>Ver Proyecto</button></a>
+                </article>
+                <article class="proyecto" data-aos="fade-up" data-aos-delay="500"
+                data-aos-duration="500">
+                    <img src="./assets/librozon.png" alt="">
+                    <h2>LIBROZON</h2>
+                    <p>Pagina realizada con ReactJS. Busqueda y CRUD de libros</p>
+                    <a href="https://github.com/carlosyauri/primer-react" target="_blank"><button>Ver Proyecto</button></a>
+                </article>
+                <article class="proyecto" data-aos="fade-up" data-aos-delay="500"
+                data-aos-duration="500">
+                    <img src="./assets/climaProyect.png" alt="">
+                    <h2>WEATHER</h2>
+                    <p>(ReactJS) Pagina web de información climatica. Peticion a OpenweatherMap API</p>
+                    <a href="https://github.com/carlosyauri/weather-react" target="_blank"><button>Ver Proyecto</button></a>
+                </article>
+
+
+                
+                
+            </div>
+        </section>
+    </main>
+        <footer data-aos="zom-in">
+            <h2>Contactame por :</h2>
+            <div>
+                <a href="https://wa.me/+543518109962" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.linkedin.com/in/carlos-yauri-9a0243188/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:carlosyauri97@gmail.com"><i class="fas fa-envelope-open" target="_blank"></i></i></a>
+            </div>
+        </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>   
+        AOS.init(); 
+     </script>
+    <script src="./script.js"></script>
+</body>
+</html>

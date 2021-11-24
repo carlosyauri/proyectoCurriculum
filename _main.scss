@@ -1,0 +1,90 @@
+.descripcion{
+    text-align: center;
+    color: rgb(88, 88, 88);
+    padding: 2em 0.5em 0 0.5em;
+}
+.tablinks {
+	padding: 0.75rem 1rem;
+}
+.list-conocimientos{
+    display: flex;
+    flex-wrap: wrap;
+}
+.list-conocimientos img{
+    width: 5.5em;
+    height: 5.5em;
+    margin: 1em 1em 1em 1em;
+}
+.section-project{
+    background-color: rgb(226, 225, 225);
+    margin-top: 4em;
+    padding-top: 1em;
+    width: 100%;
+    text-align: center;
+    background-size: contain;
+    height: 42em;
+}
+.tittle-carrusel{
+    color: rgb(88, 88, 88);
+}
+.proyecto-container{
+    display: flex;
+    overflow: scroll;
+}
+.proyecto{
+    width: 11em;
+    height: 30em;
+    border-radius: 5%;
+    margin-left: 1em;
+    margin-top: 3em;
+    background-color: white;
+}
+.proyecto img{
+    width: 11em;
+    height: 16em;
+    cursor: pointer;
+}
+.middle,.fin{
+    display: none;
+}
+.proyecto h2{
+    font-size: 1.3em;
+}
+.descripcion p{
+    line-height: 25px;
+}
+.proyecto p{
+    font-size: 1em;
+    height: 6em;
+    width: 89%;
+    margin: auto;
+}
+.proyecto button{
+    width: 10em;
+    height: 3em;
+    outline: none;
+    border: 0px solid;
+    background-color:#df7366;
+    border-radius: 0.5em;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+.proyecto button:hover{
+    background-color:#c43b2c;
+}
+.extend{
+    height: 37em;
+}
+.extendp{
+    height: 13em !important;
+}
+.leerMas{
+    color:#df7366;
+    font-weight: bold;
+    cursor: pointer;
+}
+.leerMas:hover{
+    color:#c43b2c;
+}
