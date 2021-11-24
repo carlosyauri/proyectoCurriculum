@@ -214,6 +214,7 @@ header {
 
 header h1 {
   color: white;
+  -webkit-text-stroke: 1px #37383c;
   position: relative;
   margin: auto;
   vertical-align: middle;
@@ -231,10 +232,11 @@ header h1::after {
 
 header h2 {
   color: white;
+  -webkit-text-stroke: 0.5px black;
   position: relative;
   margin: auto;
   vertical-align: middle;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   padding-top: 1em;
 }
 
@@ -380,10 +382,7 @@ header h2 {
 }
 
 footer {
-  background-image: url(./assets/fondo.png);
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
+  background-color: #37383c;
   text-align: center;
   color: whitesmoke;
   height: 18em;
